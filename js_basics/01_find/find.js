@@ -1,5 +1,5 @@
 
-function main() {
+function find_tallest() {
     var heights = [120, 180, 134, 143, 182, 190, 110];
     var tallest = heights[0];
 
@@ -8,6 +8,6 @@ function main() {
             tallest = heights[i];
         }
     }
-    console.log('Tallest height:', tallest);
+    console.info('Tallest height:', tallest);
 }
-    
+
